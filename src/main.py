@@ -35,8 +35,8 @@ data_dict = {
 model.train(
     data = "dataset.yaml",  # Path to the dataset YAML file
     epochs = 10,  # Number of training epochs
-    imgsz = 640,  # Image size for training
-    batch = 16,  # Batch size for training
-    device = 0,  # Device to use for training (0 for GPU, 'cpu' for CPU)
+    imgsz = 416,  # Image size for training
+    batch = 12,  # Batch size for training
+    device = "mps",  # Device to use for training (0 for GPU, 'cpu' for CPU)
     name = "face_detector"
 )
