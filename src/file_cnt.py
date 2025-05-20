@@ -1,3 +1,4 @@
+#데이터셋에 똥이 묻어있는지 확인하는 코드
 import os
 
 img_dir = '/Users/kimminkyeol/Programming/dataset/yolov8/output/train/images'
