@@ -12,7 +12,6 @@
 import random
 import shutil
 from pathlib import Path
-
 # 경로 설정
 input_dir = Path("/Users/kimminkyeol/Programming/dataset/yolov8/com/cla")
 output_dir = Path("/Users/kimminkyeol/Programming/dataset/yolov8/output")
