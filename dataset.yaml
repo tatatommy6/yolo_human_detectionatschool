@@ -1,6 +1,14 @@
-path: /Users/kimminkyeol/Programming/dataset/yolov8/output
-train: /Users/kimminkyeol/Programming/dataset/yolov8/output/train/
-val:   /Users/kimminkyeol/Programming/dataset/yolov8/output/train/
-nc:    1
-names:
-  0: face
+path: /Users/kimminkyeol/Programming/dataset/Final/
+train: /Users/kimminkyeol/Programming/dataset/Final/train/
+val:   /Users/kimminkyeol/Programming/dataset/Final/val/
+test:  /Users/kimminkyeol/Programming/dataset/Final/test/
+
+nc: 9
+names: ['2', '3', '4', '5', '6', '7', '8', '9', 'Person']
+
+roboflow:
+  workspace: panav
+  project: final-vxbsa
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/panav/final-vxbsa/dataset/1

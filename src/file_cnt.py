@@ -1,8 +1,8 @@
 #데이터셋에 똥이 묻어있는지 확인하는 코드
 import os
 
-img_dir = '/Users/kimminkyeol/Programming/dataset/yolov8/output/train/images'
-lbl_dir = '/Users/kimminkyeol/Programming/dataset/yolov8/output/train/labels'
+img_dir = '/Users/kimminkyeol/Programming/dataset/Final/test/images'
+lbl_dir = '/Users/kimminkyeol/Programming/dataset/Final/test/labels'
 
 img_files = set(os.path.splitext(f)[0] for f in os.listdir(img_dir) if f.endswith('.jpg'))
 lbl_files = set(os.path.splitext(f)[0] for f in os.listdir(lbl_dir) if f.endswith('.txt'))
